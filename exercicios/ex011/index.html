@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abri esse sait em varios dispositivos, ou simplismente aumente e diminua a atela.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png">   
+    </picture>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagem/foto-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-p.png">
+    </picture>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Bossa Sonsa - Quincas Moreira.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/El Billete - Edgar Lopez and Quincas Moreira.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Funky Carioca - Quincas Moreira.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

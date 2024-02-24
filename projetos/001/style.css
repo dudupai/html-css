@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding: 10px;
+    margin: auto;
+    width: 530px;
+    background-color: rgb(255, 245, 231);
+}
+
+main.img {
+    padding: 0px;
+    margin: auto;
+    width: 550px;
+    background-color: rgb(255, 245, 231);
+}
+
+div {
+    background-image: url(img/Sem\ título.png);
+    top: -5px;
+    background-size: cover;
+    padding: 15px;
+    text-align: left;
+    
+}
+
+/*caracteristicas do titulo*/
+
+h1.pri {
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.aa {
+    font-size: 1.6em;
+}
+
+.a {
+    padding: 3px;
+    background-color: rgb(39, 92, 43);
+    color: #fff;
+    font-size: 1em;
+}
+
+.b {
+    vertical-align: top;
+    font-size: 0.8em;
+    position: relative;
+    top: 9px;
+    left: 0px;
+}
+
+.c {
+    font-weight: bold;
+    font-size: 2em;
+
+}
+
+.d {
+    font-size: 1.6em;
+
+}
+/*corpo da pagina*/
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}

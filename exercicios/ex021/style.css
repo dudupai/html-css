@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: rgb(190, 190, 190);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border-width: 10px;
+    border-color: rgb(0, 255, 255);
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.grande {
+    font-size: 24px; /* Defina o tamanho da fonte para palavras grandes */
+}
+  
+.pequena {
+    font-size: 10px; /* Defina o tamanho da fonte para palavras pequenas */
+}
+
+.pci {
+    background-image: url('f3017a92-4684-43d6-a5c0-43a0717a976f.jpg');
+    background-size: cover;
+    padding: 20px;
+    width: 750px;
+    height: 500px;
+}
